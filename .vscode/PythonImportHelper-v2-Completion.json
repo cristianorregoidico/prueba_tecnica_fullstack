@@ -1,0 +1,71 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "api_python.app",
+        "description": "api_python.app",
+        "peekOfCode": "def hello():\n    return jsonify({'message': 'Hello World'})\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', port=PORT, debug=DEBUG)",
+        "detail": "api_python.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "api_python.app",
+        "description": "api_python.app",
+        "peekOfCode": "app = Flask(__name__)\nPORT = int(os.getenv('PORT', 5000))\nDEBUG = os.getenv('FLASK_ENV', 'development') == 'development'\n# Rutas\n@app.route('/hello', methods=['GET'])\ndef hello():\n    return jsonify({'message': 'Hello World'})\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', port=PORT, debug=DEBUG)",
+        "detail": "api_python.app",
+        "documentation": {}
+    },
+    {
+        "label": "PORT",
+        "kind": 5,
+        "importPath": "api_python.app",
+        "description": "api_python.app",
+        "peekOfCode": "PORT = int(os.getenv('PORT', 5000))\nDEBUG = os.getenv('FLASK_ENV', 'development') == 'development'\n# Rutas\n@app.route('/hello', methods=['GET'])\ndef hello():\n    return jsonify({'message': 'Hello World'})\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', port=PORT, debug=DEBUG)",
+        "detail": "api_python.app",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "api_python.app",
+        "description": "api_python.app",
+        "peekOfCode": "DEBUG = os.getenv('FLASK_ENV', 'development') == 'development'\n# Rutas\n@app.route('/hello', methods=['GET'])\ndef hello():\n    return jsonify({'message': 'Hello World'})\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', port=PORT, debug=DEBUG)",
+        "detail": "api_python.app",
+        "documentation": {}
+    }
+]

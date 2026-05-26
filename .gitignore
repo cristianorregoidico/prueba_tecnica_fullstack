@@ -1,0 +1,18 @@
+# Node.js
+api_nodejs/node_modules/
+api_nodejs/.env
+api_nodejs/.env.local
+api_nodejs/.env.development
+api_nodejs/.env.test
+api_nodejs/.env.production
+api_nodejs/dist/
+api_nodejs/build/
+
+# Python
+api_python/__pycache__/
+api_python/venv/
+api_python/.env
+api_python/.env.local
+api_python/.env.development
+api_python/.env.test
+api_python/.env.production

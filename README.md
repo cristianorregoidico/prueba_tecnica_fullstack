@@ -31,9 +31,9 @@ Deberás crear un Endpoint (ej. `POST /api/process-email`) que reciba el texto d
 
 ### Tareas específicas:
 1.  **Crear el Endpoint:** Define la ruta que recibirá el payload del correo.
-2.  **Integración con IA:** Escribe el controlador que realiza la consulta al LLM. *Nota: Puedes usar una API Key real de OpenAI/Anthropic o usar la suministrada de Gemini.*
+2.  **Integración con IA:** Escribe el controlador que realiza la consulta al LLM.
 3.  **Ingeniería de Prompts:** Define claramente el prompt dentro del código. Separa las instrucciones del sistema (System Prompt) del mensaje del usuario.
-4.  **Salida Estructurada (JSON):** Obliga al modelo de lenguaje a devolver una respuesta estructurada (no texto libre). El endpoint debe terminar retornando un JSON similar a este:
+4.  **Salida Estructurada (JSON):** Obliga al modelo de lenguaje a devolver una respuesta estructurada (no texto libre).
     
 ## 🎯 Qué evaluaremos en tu código:
 - Manejo de Asincronía: Uso correcto de async/await (o equivalentes) al interactuar con servicios externos.
